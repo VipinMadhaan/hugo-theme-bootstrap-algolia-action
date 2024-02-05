@@ -1,5 +1,5 @@
 # action.yml
-name: 'HBS Algolia'
+name: 'ivipin Algolia'
 description: 'Build and upload the Algolia index'
 inputs:
   algolia-app-id:

@@ -14,4 +14,4 @@ hugo --minify --gc --enableGitInfo
 ALGOLIA_APP_ID=$1 \
 ALGOLIA_API_KEY=$2 \
 ALGOLIA_INDEX_NAME=$3 \
-  hugo-theme-bootstrap-algolia
+  ivipin-algolia

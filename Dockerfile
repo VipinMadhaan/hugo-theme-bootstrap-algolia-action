@@ -1,7 +1,7 @@
-FROM razonyang/hugo-theme-bootstrap-algolia as algolia
+FROM VipinMadhaan/ivipin-algolia as algolia
 
-FROM razonyang/hugo
-COPY --from=algolia /usr/local/bin/hugo-theme-bootstrap-algolia /usr/local/bin/hugo-theme-bootstrap-algolia
+FROM VipinMadhaan/hugo
+COPY --from=algolia /usr/local/bin/ivipin-algolia /usr/local/bin/ivipin-algolia
 COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]

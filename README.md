@@ -1,6 +1,6 @@
-# HBS Algolia GitHub Action
+# Algolia GitHub Action
 
-Build and upload the Algolia index for the [HBS](https://github.com/VipinMadhaan/hugo-theme-bootstrap) theme.
+Build and upload the Algolia index for the [ivipin](https://github.com/VipinMadhaan/ivipin) blog.
 
 ## Usage
 
@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Build & upload Algolia index
-        uses: VipinMadhaan/hugo-theme-bootstrap-algolia-action@[version]
+        uses: VipinMadhaan/ivipin-algolia-action@[version]
         with:
           algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
           algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
