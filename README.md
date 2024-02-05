@@ -1,10 +1,10 @@
 # HBS Algolia GitHub Action
 
-Build and upload the Algolia index for the [HBS](https://github.com/razonyang/hugo-theme-bootstrap) theme.
+Build and upload the Algolia index for the [HBS](https://github.com/VipinMadhaan/hugo-theme-bootstrap) theme.
 
 ## Usage
 
-> Example: https://github.com/razonyang/blog/blob/main/.github/workflows/algolia.yml
+> Example: https://github.com/VipinMadhaan/ivipin/blob/main/.github/workflows/algolia.yml
 
 Create the `.github/workflows/algolia.yml` under your site root with following content.
 
@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Build & upload Algolia index
-        uses: razonyang/hugo-theme-bootstrap-algolia-action@[version]
+        uses: VipinMadhaan/hugo-theme-bootstrap-algolia-action@[version]
         with:
           algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
           algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
